@@ -1,0 +1,13 @@
+.font-specs {
+    font-size: 28px;
+    font-family: Helvectia, "Times New Roman", sans-serif;
+}
+
+.one {
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+}
+
+.two {
+    background-color: #c3e213;
+}
