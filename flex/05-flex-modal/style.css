@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,11 +23,11 @@ body {
 }
 
 .icon {
-  color: royalblue;
+  color: rgb(221, 41, 28);
   font-size: 26px;
   font-weight: 700;
-  background: lavender;
-  width: 42px;
+  background: rgb(32, 32, 41);
+  width: 40px;
   height: 42px;
   border-radius: 50%;
   display: flex;
@@ -63,4 +63,30 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* SOLUTION: */
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
