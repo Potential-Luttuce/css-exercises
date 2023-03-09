@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-  border: 1px solid plum;
+  /* border: 1px solid plum; */
 }
 
 body {
@@ -35,6 +35,15 @@ li {
   display: inline;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: yellowgreen;
+  border: 1px solid blue;
+}
 .header {
   padding: 10px;
   display: flex;
@@ -46,4 +55,26 @@ li {
 }
 .right-links {
   margin-left: auto;
+}
+
+/* .left-links {
+  display: flex;
+  gap: 2em
+} */
+
+.content {
+  /* flex-direction: column; */
+  text-align: center;
+  padding: 200px 0px;
+}
+
+.buttons {
+  padding-top: 20px;
+}
+
+.footer {
+  background-color: #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
