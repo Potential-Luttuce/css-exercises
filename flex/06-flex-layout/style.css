@@ -38,6 +38,12 @@ li {
 .header {
   padding: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
+.store {
+  margin-right: auto;
+}
+.right-links {
+  margin-left: auto;
+}
