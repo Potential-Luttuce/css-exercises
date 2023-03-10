@@ -5,15 +5,11 @@ body {
 }
 
 .header {
-  height: 72px;
   background: darkmagenta;
   color: white;
-}
-
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 8px;
 }
 
 .sidebar {
@@ -21,8 +17,27 @@ body {
   background: royalblue;
 }
 
+.content {
+  height: 900px;
+  display:flex;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
 .card {
+  height: 100px;
+  width: 100px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
 }
