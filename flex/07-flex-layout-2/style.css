@@ -15,10 +15,24 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  /* justify-content: flex-start; */
+}
+
+ul {
+  list-style-type: none;
+  padding: 8px;
+}
+
+li {  padding-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .content {
-  height: 900px;
+  height: 1000px;
   display:flex;
 }
 
