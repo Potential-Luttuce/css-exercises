@@ -44,11 +44,12 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
+  padding: 20px 0 0 20px;
 }
 
 .card {
-  height: 100px;
-  width: 100px;
+  /* height: 100px; */
+  width: 200px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
