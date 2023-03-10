@@ -31,6 +31,10 @@ a {
   color: white;
 }
 
+a:hover {
+  background-color: aqua;
+}
+
 .content {
   height: 1000px;
   display:flex;
